@@ -1,0 +1,294 @@
+ 
+
+
+/* feature css start */
+
+.my-card {
+    background: linear-gradient(90deg, rgba(229, 185, 86, 0.8) 0%, rgba(219, 162, 33, 0.8) 100%);
+    padding: 40px;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.my-card:hover {
+    background: linear-gradient(90deg, rgba(219, 162, 33, 1) 0%, rgba(229, 185, 86, 1) 100%);
+    color: #000;
+    transition: all 0.3s;
+    box-shadow: 0px 0px 5px rgba(219, 162, 33, 1);
+}
+
+.my-card p {
+    font-size: 28px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.my-card p.h1 {
+    font-size: 38px;
+    transition: all 0.3s;
+}
+
+.my-card a {
+    text-decoration: none;
+    padding: 10px 30px !important;
+    transition: all 0.3s;
+}
+
+.my-card-two {
+    background: rgba(229, 185, 86, 0.3);
+    transition: all 0.3s;
+    padding: 40px;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s;
+    height: 100%;
+}
+
+.my-card-two:hover {
+    background: linear-gradient(90deg, rgba(219, 162, 33, 1) 0%, rgba(229, 185, 86, 1) 100%);
+    transition: all 0.3s;
+}
+
+.my-card-two p {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.btn-one {
+    border-radius: 8px;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(110, 80, 20, .4),
+        inset 0 -2px 5px 1px rgba(139, 66, 8, 1),
+        inset 0 -1px 1px 3px rgba(250, 227, 133, 1);
+    background-image: linear-gradient(160deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07);
+    border: 1px solid #a55d07;
+    color: rgb(120, 50, 5);
+    text-shadow: 0 2px 2px rgba(250, 227, 133, 1);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    background-size: 100% 100%;
+    background-position: center;
+    display: inline-block;
+}
+
+.btn-one:focus,
+.btn-one:hover {
+    background-size: 150% 150%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23),
+        inset 0 -2px 5px 1px #b17d10,
+        inset 0 -1px 1px 3px rgba(250, 227, 133, 1);
+    border: 1px solid rgba(165, 93, 7, .6);
+    color: rgba(120, 50, 5, .8);
+}
+
+.btn-one:active {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(110, 80, 20, .4),
+        inset 0 -2px 5px 1px #b17d10,
+        inset 0 -1px 1px 3px rgba(250, 227, 133, 1);
+}
+
+.btn-two {
+    background-color: #000;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: #fff;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.my-card-two:hover .btn-two {
+    background: #fff;
+    transition: all 0.5s;
+    color: #000;
+}
+
+.my-card:hover .btn-two {
+    background: #fff;
+    transition: all 0.5s;
+    color: #000;
+}
+
+.btn-two:hover {
+    background: #fff;
+    transition: all 0.5s;
+    color: #000;
+}
+
+
+.slider-area {
+
+    background-blend-mode: overlay;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ 
+
+.tokenomics-area p.h5 {
+    margin-bottom: 25px;
+}
+
+.tokenomics-area .border {
+    border-color: #dda528 !important;
+    border-radius: 8px;
+    height: 100%;
+}
+
+
+/* new css */
+
+
+
+.slider-area .typed {
+    min-height: 50px;
+}
+
+.presale-area .card {
+    background-color: rgba(255, 255, 255, 0.65);
+    color: #000;
+}
+ 
+.presale-area .card p.h4.p-2.mb-0 {
+    color: #000;
+    min-height: 45px;
+}
+
+.presale-area .card input {
+    background-color: transparent;
+    border: 0;
+}
+
+
+.hr-one {
+    background-color: #dda528;
+    opacity: 0.8;
+}
+
+.my-card {
+    margin: 6px;
+}
+
+.title-border {
+    border-bottom: solid 2px #dda528;
+    max-width: 50%;
+}
+ 
+
+.golden-border {
+    border: 2px solid transparent;
+    border-bottom: 2px solid #e5b956;
+}
+
+a.main-color.golden-border:hover {
+    color: #e5b956;
+    transition: all 0.3s;
+    border-radius: 6px;
+    border: solid 2px #e5b956;
+    border-bottom: solid 2px #e5b956 !important;
+}
+
+
+.dark-bg {
+    background-color: rgba(33, 33, 33, 0.8);
+    border-radius: 8px;
+}
+ 
+
+
+
+.card-area {
+    color: #fff;
+    position: relative;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .5);
+    overflow: hidden;
+}
+
+
+.card-area span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), #fff);
+    animation: animate1 2s linear infinite;
+}
+
+@keyframes animate1 {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.card-area span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #fff);
+    animation: animate2 2s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes animate2 {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+.card-area span:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), #fff);
+    animation: animate3 2s linear infinite;
+}
+
+@keyframes animate3 {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.card-area span:nth-child(4) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), #fff);
+    animation: animate4 2s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes animate4 {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
+}

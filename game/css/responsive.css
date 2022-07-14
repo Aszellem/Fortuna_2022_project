@@ -1,0 +1,252 @@
+
+
+@media (min-width: 3000px) {  
+    .bg-raffle { 
+        padding: 150px 250px; 
+    }
+}
+
+@media (min-width: 2300px) {  
+    .bg-raffle { 
+        padding: 120px 180px; 
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .my-card a { 
+        padding: 10px 20px !important; 
+    }
+    
+    .my-card {
+        padding: 10px;
+    }
+    
+    .my-card p {
+        font-size: 22px;
+    }
+    
+    .btn-one {
+        font-size: 16px;
+    }
+    
+}
+
+
+@media (min-width: 768px) { 
+    .unrekt-page .Contract-area .col-md-2 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    
+    ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+        background-color: #212121;
+        margin-right: 10px !important;
+        padding: 10px;
+        margin-top: 15px;
+        border-radius: 6px;
+    }
+    
+    .navbar-nav .nav-item a.nav-link {
+        color: #fff;
+        margin: 8px 0;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        padding: 8px 16px;
+        color: #212121;
+    }
+  
+/*
+    .btn-one {
+        display: block; 
+    }
+*/
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+.checkbox span.ps-0.ps-sm-5.pe-2 {
+    display: block;
+    margin: 20px 0;
+} 
+ 
+}
+
+@media only screen and (max-width: 600px) {
+
+    .navbar-dark .navbar-nav .nav-link {
+        padding: 8px 16px;
+        color: #212121;
+    } 
+   
+     
+    .navbar img.logo-white {
+        width: 80px;
+    }
+    
+    .navbar img.logo-black {
+        width: 80px;
+    }
+     
+    .coin-toss-bg {
+        padding: 10px;
+    }
+    
+    .my-card {
+        padding: 20px;
+    }
+    
+    .input-group .btn-one {
+        padding: 20px;
+    }
+    
+    .my-card .form-control {
+        width: 75%;
+    }
+    
+    .my-card .form-control {
+        width: 100%;
+        max-width: 75%;
+        border-radius: 8px !important;
+    }
+    
+    .raffle-area .form-control {
+        max-width: 70%;
+    }
+    
+    .raffle-area span.border.border-dark.py-2.px-4.rounded {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .bg-raffle {
+        padding: 100px 25px;
+    }
+    
+    .bg-raffle .btn-one {
+        display: block;
+        text-align: center;
+    }
+ 
+    
+    .lottery-area .my-card a {
+        text-align: center;
+    }
+    
+    .lottery-area .label-count {
+        border: 0;
+    }
+    .lottery-area div.clock {
+        border: 0;
+    }
+    .lottery-area .input-group .btn-one {
+        width: 100%;
+        padding: 10px 30px;
+    }
+    
+    .lottery-area .input-group.mt-5.justify-content-center .form-control{
+        width: 100%;
+    }
+    
+    .stake-page span.h5.border.rounded.w-50.d-inline-block.p-2 {
+        width: 100% !important;
+    }
+    
+    .stake-page .my-card a {
+        width: 100%;
+        text-align: center; 
+        margin-left: 0px !important;
+    }
+    
+    .coin-toss-inputs {
+        
+        
+    }
+    
+    .coin-toss-inputs .input-group { 
+        display: block; 
+    }
+    
+    .coin-toss-inputs .input-group>.form-control, .coin-toss-inputs .input-group>.form-select { 
+        width: 100%; 
+        max-width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 8px !important;
+    }
+    
+    .coin-toss-inputs .input-group .btn-one {
+        padding: 10px;
+        width: 100%;
+        border-radius: 8px !important;
+        margin: 0 !important;
+    }
+    
+    .lottery-area .label-count {
+        padding: 10px 15px;
+    }
+    
+    .lottery-area .bg-lottery {
+        padding: 20px;
+        
+    }
+    
+    .unrekt-page .Contract-area .col-md-2 { 
+        margin: 16px 0 !important;
+    }
+    
+    .btn-one {
+        display: block;
+        width: 100% !important;
+    }
+    
+    
+    .raffle-swap {
+       display: block;
+    }
+    
+    .checkbox span.ps-0.ps-sm-5.pe-2 {
+        display: block;
+        margin: 20px 0;
+    } 
+    
+    .safe-list .checkbox label { 
+        margin: 4px;
+    }
+    
+    .bg-lottery .form-check-inline {
+        display: block; 
+        margin: 20px 0;
+    }
+    
+    td {
+        min-width: 110px;
+    }
+    
+    .bg-lottery .radio-form {
+        display: block;
+    }
+    
+    .radio-form label:first-of-type {
+        border-radius: 0;
+    }
+    
+    .radio-form label:last-of-type {
+        border-radius: 0;
+    }
+    
+    .radio-form label {
+        margin: 4px;
+        min-width: 110px;
+    }
+}
+ 
+ 
+

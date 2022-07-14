@@ -1,0 +1,123 @@
+
+@media only screen and (max-width: 1000px) {
+
+    
+    ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+        background-color: #212121;
+        margin-right: 10px !important;
+        padding: 10px;
+        margin-top: 15px;
+        border-radius: 6px;
+    }
+    
+    .navbar-nav .nav-item a.nav-link {
+        color: #fff;
+        margin: 8px 0;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        padding: 8px 16px;
+        color: #212121;
+    }
+  
+    .btn-one {
+        display: block;
+    }
+
+   
+}
+ 
+
+@media only screen and (max-width: 600px) { 
+
+    .navbar-dark .navbar-nav .nav-link {
+        padding: 8px 16px;
+        color: #212121;
+    }
+    
+     
+    .display-3 {
+        font-size: 32px;
+    }
+     
+    
+    .slider-content { 
+        top: 20%;
+    }
+    
+     
+    .slider-area {
+        overflow-x: hidden;
+        height: 100vh;
+    }
+
+    .main-area {
+        overflow-x: hidden;
+    }
+     
+    
+    .chcek-img img {
+        width: 30px;
+    }
+     
+     
+    .navbar img.logo-white {
+        width: 80px;
+    }
+    
+    .tokenomics-area {
+        overflow-x: hidden;
+    }
+    
+    .skew-card {
+        margin: 0 15px;
+        transform: skewX(0deg);
+    }
+    
+    .skew-card p {
+        transform: skewX(0deg); 
+    }
+    
+    .btn-style span {
+        transform: skewX(0deg);
+    }
+    
+    .btn-style {
+        transform: skewX(0deg);
+    }
+    
+    .icon-box {
+        margin-bottom: 20px;
+    }
+    
+    .container {
+        overflow-x: hidden;
+    }
+    
+    .fixed-top {
+        top: 70px; 
+    }
+    
+    .navbar img.logo-black {
+        width: 90px;
+    }
+    
+    .glow-on-hover {
+        padding: 20px 30px;
+    }
+    
+    .slider-content { 
+        left: 5%;
+        right: 5%;
+    }
+    
+    .glow-on-hover {
+        display: block;
+    }
+    
+    .btn-one {
+        display: block;
+        width: 100%;
+    }
+ 
+}

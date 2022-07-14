@@ -1,0 +1,91 @@
+@keyframes coinFall{
+    0% {transform:translateY(var(--negative-coin-size)) rotateX(0deg);}
+    100% {transform:translateY(calc(100vh + var(--coin-size))) rotateX(2100deg);}
+}
+@-moz-keyframes coinFall{
+    0% {transform:translateY(0vh) rotateX(0deg);}
+    100% {transform:translateY(100vh) rotateX(2100deg);}
+}
+@-webkit-keyframes coinFall{
+    0% {transform:translateY(0vh) rotateX(0deg);}
+    100% {transform:translateY(100vh) rotateX(2100deg);}
+}
+
+
+body{
+    --coin-size:min(10vh,10vw);
+    --coin-thicknes:min(1vh,1vw);
+    --negative-coin-size:max(-10vh,-10vw);
+    --negative-coin-thicknes:max(-1vh,-1vw);
+    --half-negative-thicknes:max(-0.5vh,-0.5vw);
+}
+
+.coins-holder{
+    position:absolute;
+    height:100vh;
+    width:100%;
+    left:0px;
+    top:0px;
+    z-index: 9999999;
+}
+.coin-fill{
+    border-radius:100%;
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:9999999;
+    left:0px;
+    top:0px;
+}
+#coin-fill-top{
+    transform:translateZ(-1px);
+}
+#coin-fill-bottom{
+    transform:translateZ(calc(var(--negative-coin-thicknes) + 1px));
+}
+
+.win-coin{
+    -webkit-animation:"coinFall" linear 6s;
+    -moz-animation:"coinFall" linear 6s;
+    animation:"coinFall" linear 6s;
+
+    -webkit-transform-style:preserve-3d;
+    -moz-transform-style:preserve-3d;
+    transform-style:preserve-3d;
+    height:var(--coin-size);
+    width:var(--coin-size);
+    border-radius:100%;
+    position:absolute;
+    cursor:pointer;
+
+    background-image:url("../images/win-head.png");
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:85% 85%;
+}
+.win-coin:before{
+    background-image:url("../images/win-tail.png");
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:85% 85%;
+    
+    transform:translateZ(var(--negative-coin-thicknes));
+    position:absolute;
+
+    height:100%;
+    width:100%;
+    content:"";
+    z-index:9999999;
+    left:0px;
+    top:0px;
+}
+.win-coin:after{
+    transform:translateZ(var(--half-negative-thicknes)) translateY(var(--negative-coin-thicknes)) rotateX(90deg);
+    width:var(--coin-size);
+    top:calc(50% + var(--coin-thicknes));
+    position:absolute;
+    content:"";
+    height:var(--coin-thicknes);
+    z-index:10000000;
+    left:0px;
+}

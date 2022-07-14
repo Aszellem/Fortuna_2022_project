@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<script src="js/jquery-1.12.4.min.js"></script>
+<style>
+  table{
+    border: 1px solid;
+  }
+</style>
+</head>
+<body>
+
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Leaderboard</button>
+                                </li>
+                            </ul>
+                            <hr>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                                    <h4 class="my-4">Last 10 Bets </h4>
+
+                                    <div class="table-responsive">
+                                        <table class="table" id="leaderboard">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Win Address</th>
+                                                    <th scope="col">Txn</th>
+                                                    <th scope="col">Blocknumber</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+
+
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                            </div>
+
+  <script>
+
+    let first=true;
+    function leaderboard(){
+      let rArray = [];
+      $.post( {
+           url: "https://api.bscscan.com/api?module=logs&action=getLogs&fromBlock=19000000&toBlock=99999999&address=0x917e49C779e683cBE43ce1f085E97F44Ae59f4a4&topic0=0xfafc105744fb3fdd3fbe6e2944b4b36df511adb2edec14e58bd6e07752d4d83f&apikey=YourApiKeyToken",
+           dataType: "json",
+           data: {},
+           success: function( data ) {
+                 if (data['status']==1){
+                   console.log(data);
+                   rArray = data['result'];
+                 }
+                 let row;
+                 let address;
+
+                 let tablerow;
+                 let limit = 2;
+                 let rowNumber = 0;
+                 let previous = '';
+                 rArray.reverse().forEach(element => {
+                   if (rowNumber<limit){
+                   row = element.data.substr(27);
+                   console.log(row);
+
+                   // type user value combination bet time
+
+                   address = row.substr(35,4);
+                   //tip = parseInt(row.substr(39,64),16);
+                   blockNumber = parseInt(element.blockNumber,16);
+
+                   //amount = parseInt(row.substr(193, 63),16)/1e18;
+                   //bet = parseInt(row.substr(193, 63),16)/1e18;
+
+                   console.log(`
+                    Address:   0x...${address}
+                    TX Hash:   0x...${element.transactionHash.substr(62)}
+                    blockNumber: ${blockNumber}
+
+                   `);
+
+                   //if (gtype == 3){
+
+                   tablerow = `<tr id="${element.transactionHash}">
+                    <td>0x...${address}</td>
+                    <td>0x...${element.transactionHash.substr(62)}</td>
+                    <td>${blockNumber}</td>
+                   </tr>`;
+
+
+
+                   if (typeof $('#'+element.transactionHash).val() !== "string" && first == true) {
+                     $('#leaderboard').append(tablerow);
+                   }
+
+                   if (typeof $('#'+element.transactionHash).val() !== "string" && first == false){
+                     console.log(previous + "  -  " + typeof $('#'+element.transactionHash).val());
+
+                     if (previous != '') {
+                       $('#leaderboard').append(tablerow);
+                       $('#'+previous).after(tablerow);
+                       previous = element.transactionHash;
+                       console.log('2 ' + previous);
+                     }
+
+                     if (previous == '') {
+                       $('#leaderboard').prepend(tablerow);
+                       previous = element.transactionHash;
+                       console.log('1');
+                     }
+                   }
+
+                   if (typeof $('#'+element.transactionHash).val() == "string" && first == false){
+                     previous = element.transactionHash;
+                   }
+
+                   if ($('#leaderboard >tbody >tr').length > limit){
+                     $('#leaderboard tr:last').remove();
+                   }
+
+                   //$('#leaderboard >tbody >tr:first').attr('id')
+
+                     rowNumber++;
+                   //}
+                   }
+                 });
+                 first = false;
+                 previous = '';
+           }
+        } );
+
+      }
+      //leaderboard();
+      setInterval(leaderboard, 13000);
+  </script>
+</body>
+</html>

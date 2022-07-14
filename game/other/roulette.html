@@ -1,0 +1,684 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link href="bootsrtap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- fontawesome css   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css   -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/roulette.css">
+    <!--    CSS for responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <title> Fortuna | The Goddes of Fortune </title>
+</head>
+
+<body class="main-area text-white dark" >
+    <!--   header start -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../index.php">
+                <img class="logo-black" src="images/logo.png" alt="">
+                <img class="logo-white" src="images/logo-white.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="coin-toss.html">Coin Toss</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="dice.html">Dice</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="safe-cracker.html">Safe Cracker</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">Raffle</a>
+                        <ul class="dropdown-menu nav-dropwodn" aria-labelledby="Stats">
+                            <li><a class="dropdown-item" href="raffle.html">Raffle BNB </a></li>
+                            <li><a class="dropdown-item" href="raffle.html">Raffle FRT</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">Lottery</a>
+                        <ul class="dropdown-menu nav-dropwodn" aria-labelledby="Stats">
+                          <li><a class="dropdown-item" href="lottery-weekly.html">Lottery Weekly </a></li>
+                          <li><a class="dropdown-item" href="lottery-daily.html">Lottery Daily</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">Instant Lottery</a>
+                        <ul class="dropdown-menu nav-dropwodn" aria-labelledby="Stats">
+                            <li><a class="dropdown-item" href="instant-lottery.html">FRT</a></li>
+                            <li><a class="dropdown-item" href="instant-lottery.html">BUSD</a></li>
+                            <li><a class="dropdown-item" href="instant-lottery.html">USDT</a></li>
+                            <li><a class="dropdown-item" href="instant-lottery.html">BNB</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="roulette.html">Roulette</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <span class="h4 mx-4" id="wa" style="display:none;">Wallet Address </span>
+                        <button class="btn-one" id="btn-connect"> Connect</button>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <button class="btn-one" id="btn-disconnect" style="display:none;"> Disonnect</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--   header end -->
+
+    <!--slider area start -->
+    <section class="coin-toss-bg" id="home">
+        <div class="slider-content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="my-card">
+                            <p class="h2">Roulette</p>
+                            <p class=""></p>
+                            <p class="h4">Place the bets please</p>
+                            <div class="roulette-area">
+
+                            <div class="roulette">
+                                <table>
+                                    <tr class="nums">
+                                        <td class="num green zero" rowspan="3"><span>0</span></td>
+                                        <td class="num red"><span>3</span></td>
+                                        <td class="num black"><span>6</span></td>
+                                        <td class="num red"><span>9</span></td>
+                                        <td class="num red"><span>12</span></td>
+                                        <td class="num black"><span>15</span></td>
+                                        <td class="num red"><span>18</span></td>
+                                        <td class="num red"><span>21</span></td>
+                                        <td class="num black"><span>24</span></td>
+                                        <td class="num red"><span>27</span></td>
+                                        <td class="num red"><span>30</span></td>
+                                        <td class="num black"><span>33</span></td>
+                                        <td class="num red"><span>36</span></td>
+                                        <td class="sector" data-sector="1"><span class="vt">2 to 1</span></td>
+                                    </tr>
+                                    <tr class="nums">
+                                        <td class="hidden"></td>
+                                        <td class="num black"><span>2</span></td>
+                                        <td class="num red"><span>5</span></td>
+                                        <td class="num black"><span>8</span></td>
+                                        <td class="num black"><span>11</span></td>
+                                        <td class="num red"><span>14</span></td>
+                                        <td class="num black"><span>17</span></td>
+                                        <td class="num black"><span>20</span></td>
+                                        <td class="num red"><span>23</span></td>
+                                        <td class="num black"><span>26</span></td>
+                                        <td class="num black"><span>29</span></td>
+                                        <td class="num red"><span>32</span></td>
+                                        <td class="num black"><span>35</span></td>
+                                        <td class="sector" data-sector="2"><span class="vt">2 to 1</span></td>
+                                    </tr>
+                                    <tr class="nums">
+                                        <td class="hidden"></td>
+                                        <td class="num red"><span>1</span></td>
+                                        <td class="num black"><span>4</span></td>
+                                        <td class="num red"><span>7</span></td>
+                                        <td class="num black"><span>10</span></td>
+                                        <td class="num black"><span>13</span></td>
+                                        <td class="num red"><span>16</span></td>
+                                        <td class="num red"><span>19</span></td>
+                                        <td class="num black"><span>22</span></td>
+                                        <td class="num red"><span>25</span></td>
+                                        <td class="num black"><span>28</span></td>
+                                        <td class="num black"><span>31</span></td>
+                                        <td class="num red"><span>34</span></td>
+                                        <td class="sector" data-sector="3"><span class="vt">2 to 1</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="empty"></td>
+                                        <td colspan="4" class="sector" data-sector="4">1st 12</td>
+                                        <td colspan="4" class="sector" data-sector="5">2nd 12</td>
+                                        <td colspan="4" class="sector" data-sector="6">3rd 12</td>
+                                        <td class="empty"></td>
+                                    </tr><tr>
+                                    <td class="empty"></td>
+                                    <td colspan="2" class="sector" data-sector="7">1 to 18</td>
+                                    <td colspan="2" class="sector" data-sector="8">EVEN</td>
+                                    <td colspan="2" class="sector red" data-sector="9">RED</td>
+                                    <td colspan="2" class="sector black" data-sector="10">BLACK</td>
+                                    <td colspan="2" class="sector" data-sector="11">ODD</td>
+                                    <td colspan="2" class="sector" data-sector="12">19 to 36</td>
+                                    <td class="empty"></td>
+                                    </tr>
+                                </table>
+                                <div class="controlls">
+                                    <div class="btn btn-zero" data-num="0"></div>
+                                    <!-- col6 -->
+                                    <div class="col1">
+                                        <div class="row1">
+                                            <div class="btn v rm cv" data-num="0,3"></div>
+                                            <div class="btn m rm cm" data-num="3"></div>
+                                        </div>
+                                        <div class="row2">
+                                            <div class="btn c rh cv" data-num="0,2,3"></div>
+                                            <div class="btn v rm cv" data-num="0,2"></div>
+                                            <div class="btn h rh cm" data-num="2,3"></div>
+                                            <div class="btn m rm cm" data-num="2"></div>
+                                        </div>
+                                        <div class="row3">
+                                            <div class="btn c rh cv" data-num="0,1,2"></div>
+                                            <div class="btn v rm cv" data-num="0,1"></div>
+                                            <div class="btn c rb cv" data-num="0,1,2,3"></div>
+                                            <div class="btn h rh cm" data-num="1,2"></div>
+                                            <div class="btn m rm cm" data-num="1"></div>
+                                            <div class="btn h rb cm" data-num="1,2,3"></div>
+                                        </div>
+                                        <div class="row4">
+                                            <div class="btn ms4 rm cm" data-type="sector" data-sector="4"></div>
+                                        </div>
+                                        <div class="row5">
+                                            <div class="btn ms2 rm cm" data-type="sector" data-sector="7"></div>
+                                        </div>
+                                    </div>
+                                    <!-- col2 -->
+                                    <div class="col2">
+                                        <div class="row1">
+                                            <div class="btn v rm cv" data-num="3,6"></div>
+                                            <div class="btn m rm cm" data-num="6"></div>
+                                        </div>
+                                        <div class="row2">
+                                            <div class="btn c rh cv" data-num="2,3,5,6"></div>
+                                            <div class="btn v rm cv" data-num="2,5"></div>
+                                            <div class="btn h rh cm" data-num="5,6"></div>
+                                            <div class="btn m rm cm" data-num="5"></div>
+                                        </div>
+                                        <div class="row3">
+                                            <div class="btn c rh cv" data-num="1,2,4,5"></div>
+                                            <div class="btn v rm cv" data-num="1,4"></div>
+                                            <div class="btn c rb cv" data-num="1,2,3,4,5,6"></div>
+                                            <div class="btn h rh cm" data-num="4,5"></div>
+                                            <div class="btn m rm cm" data-num="4"></div>
+                                            <div class="btn h rb cm" data-num="4,5,6"></div>
+                                        </div>
+                                    </div>
+                                    <!-- col3 -->
+                                    <div class="col3">
+                                        <div class="row1">
+                                            <div class="btn v rm cv" data-num="6,9"></div>
+                                            <div class="btn m rm cm" data-num="9"></div>
+                                        </div>
+                                        <div class="row2">
+                                            <div class="btn c rh cv" data-num="5,6,8,9"></div>
+                                            <div class="btn v rm cv" data-num="5,8"></div>
+                                            <div class="btn h rh cm" data-num="8,9"></div>
+                                            <div class="btn m rm cm" data-num="8"></div>
+                                        </div>
+                                        <div class="row3">
+                                            <div class="btn c rh cv" data-num="4,5,7,8"></div>
+                                            <div class="btn v rm cv" data-num="4,7"></div>
+                                            <div class="btn c rb cv" data-num="4,5,6,7,8,9"></div>
+                                            <div class="btn h rh cm" data-num="7,8"></div>
+                                            <div class="btn m rm cm" data-num="7"></div>
+                                            <div class="btn h rb cm" data-num="7,8,9"></div>
+                                        </div>
+                                        <div class="row5">
+                                            <div class="btn ms2 rm cm" data-type="sector" data-sector="8"></div>
+                                        </div>
+                                    </div>
+                                    <!-- col4 -->
+                                    <div class="col4">
+                                        <div class="row1">
+                                            <div class="btn v rm cv" data-num="9,12"></div>
+                                            <div class="btn m rm cm" data-num="12"></div>
+                                        </div>
+                                        <div class="row2">
+                                            <div class="btn c rh cv" data-num="8,9,11,12"></div>
+                                            <div class="btn v rm cv" data-num="8,11"></div>
+                                            <div class="btn h rh cm" data-num="11,12"></div>
+                                            <div class="btn m rm cm" data-num="11"></div>
+                                        </div>
+                                        <div class="row3">
+                                            <div class="btn c rh cv" data-num="7,8,10,11"></div>
+                                            <div class="btn v rm cv" data-num="7,10"></div>
+                                            <div class="btn c rb cv" data-num="7,8,9,10,11,12"></div>
+                                            <div class="btn h rh cm" data-num="10,11"></div>
+                                            <div class="btn m rm cm" data-num="10"></div>
+                                            <div class="btn h rb cm" data-num="10,11,12"></div>
+                                        </div>
+                                    </div>
+                                    <!-- col5 -->
+                                    <div class="col5">
+                                        <div class="row1">
+                                            <div class="btn v rm cv" data-num="12,15"></div>
+                                            <div class="btn m rm cm" data-num="15"></div>
+                                        </div>
+                                        <div class="row2">
+                                            <div class="btn c rh cv" data-num="11,12,14,15"></div>
+                                            <div class="btn v rm cv" data-num="11,14"></div>
+                                            <div class="btn h rh cm" data-num="14,15"></div>
+                                            <div class="btn m rm cm" data-num="14"></div>
+                                        </div>
+                                        <div class="row3">
+                                            <div class="btn c rh cv" data-num="10,11,13,14"></div>
+                                            <div class="btn v rm cv" data-num="10,13"></div>
+                                            <div class="btn c rb cv" data-num="10,11,12,13,14,15"></div>
+                                            <div class="btn h rh cm" data-num="13,14"></div>
+                                            <div class="btn m rm cm" data-num="13"></div>
+                                            <div class="btn h rb cm" data-num="13,14,15"></div>
+                                        </div>
+                                        <div class="row4">
+                                            <div class="btn ms4 rm cm" data-type="sector" data-sector="5"></div>
+                                        </div>
+                                        <div class="row5">
+                                            <div class="btn ms2 rm cm" data-type="sector" data-sector="9"></div>
+                                        </div>
+                                    </div>
+                                    <!-- col6 -->
+                                    <div class="col6">
+                                        <div class="row1">
+                                            <div class="btn v rm cv" data-num="15,18"></div>
+                                            <div class="btn m rm cm" data-num="18"></div>
+                                        </div>
+                                        <div class="row2">
+                                            <div class="btn c rh cv" data-num="14,15,17,18"></div>
+                                            <div class="btn v rm cv" data-num="14,17"></div>
+                                            <div class="btn h rh cm" data-num="17,18"></div>
+                                            <div class="btn m rm cm" data-num="17"></div>
+                                        </div>
+                                        <div class="row3">
+                                            <div class="btn c rh cv" data-num="13,14,16,17"></div>
+                                            <div class="btn v rm cv" data-num="13,16"></div>
+                                            <div class="btn c rb cv" data-num="13,14,15,16,17,18"></div>
+                                            <div class="btn h rh cm" data-num="16,17"></div>
+                                            <div class="btn m rm cm" data-num="16"></div>
+                                            <div class="btn h rb cm" data-num="16,17,18"></div>
+                                        </div>
+                                    </div>
+                                    <!-- col7 -->
+                                    <div class="col7">
+                                        <div class="row1">
+                                            <div class="btn v rm cv" data-num="18,21"></div>
+                                            <div class="btn m rm cm" data-num="21"></div>
+                                        </div>
+                                        <div class="row2">
+                                            <div class="btn c rh cv" data-num="17,18,20,21"></div>
+                                            <div class="btn v rm cv" data-num="17,20"></div>
+                                            <div class="btn h rh cm" data-num="20,21"></div>
+                                            <div class="btn m rm cm" data-num="20"></div>
+                                        </div>
+                                        <div class="row3">
+                                            <div class="btn c rh cv" data-num="16,17,19,20"></div>
+                                            <div class="btn v rm cv" data-num="16,19"></div>
+                                            <div class="btn c rb cv" data-num="16,17,18,19,20,21"></div>
+                                            <div class="btn h rh cm" data-num="19,20"></div>
+                                            <div class="btn m rm cm" data-num="19"></div>
+                                            <div class="btn h rb cm" data-num="19,20,21"></div>
+                                        </div>
+                                        <div class="row5">
+                                            <div class="btn ms2 rm cm" data-type="sector" data-sector="10"></div>
+                                        </div>
+                                    </div>
+                                    <!-- col8 -->
+                                    <div class="col8">
+                                        <div class="row1">
+                                            <div class="btn v rm cv" data-num="21,24"></div>
+                                            <div class="btn m rm cm" data-num="24"></div>
+                                        </div>
+                                        <div class="row2">
+                                            <div class="btn c rh cv" data-num="20,21,23,24"></div>
+                                            <div class="btn v rm cv" data-num="20,23"></div>
+                                            <div class="btn h rh cm" data-num="23,24"></div>
+                                            <div class="btn m rm cm" data-num="23"></div>
+                                        </div>
+                                        <div class="row3">
+                                            <div class="btn c rh cv" data-num="19,20,22,23"></div>
+                                            <div class="btn v rm cv" data-num="19,22"></div>
+                                            <div class="btn c rb cv" data-num="19,20,21,22,23,24"></div>
+                                            <div class="btn h rh cm" data-num="22,23"></div>
+                                            <div class="btn m rm cm" data-num="22"></div>
+                                            <div class="btn h rb cm" data-num="22,23,24"></div>
+                                        </div>
+                                    </div>
+                                    <!-- col9 -->
+                                    <div class="col9">
+                                        <div class="row1">
+                                            <div class="btn v rm cv" data-num="24,27"></div>
+                                            <div class="btn m rm cm" data-num="27"></div>
+                                        </div>
+                                        <div class="row2">
+                                            <div class="btn c rh cv" data-num="23,24,26,27"></div>
+                                            <div class="btn v rm cv" data-num="23,26"></div>
+                                            <div class="btn h rh cm" data-num="26,27"></div>
+                                            <div class="btn m rm cm" data-num="26"></div>
+                                        </div>
+                                        <div class="row3">
+                                            <div class="btn c rh cv" data-num="22,23,25,26"></div>
+                                            <div class="btn v rm cv" data-num="22,25"></div>
+                                            <div class="btn c rb cv" data-num="22,23,24,25,26,27"></div>
+                                            <div class="btn h rh cm" data-num="25,26"></div>
+                                            <div class="btn m rm cm" data-num="25"></div>
+                                            <div class="btn h rb cm" data-num="25,26,27"></div>
+                                        </div>
+                                        <div class="row4">
+                                            <div class="btn ms4 rm cm" data-type="sector" data-sector="6"></div>
+                                        </div>
+                                        <div class="row5">
+                                            <div class="btn ms2 rm cm" data-type="sector" data-sector="11"></div>
+                                        </div>
+                                    </div>
+                                    <!-- col10 -->
+                                    <div class="col10">
+                                        <div class="row1">
+                                            <div class="btn v rm cv" data-num="27,30"></div>
+                                            <div class="btn m rm cm" data-num="30"></div>
+                                        </div>
+                                        <div class="row2">
+                                            <div class="btn c rh cv" data-num="26,27,29,30"></div>
+                                            <div class="btn v rm cv" data-num="26,29"></div>
+                                            <div class="btn h rh cm" data-num="29,30"></div>
+                                            <div class="btn m rm cm" data-num="29"></div>
+                                        </div>
+                                        <div class="row3">
+                                            <div class="btn c rh cv" data-num="25,26,28,29"></div>
+                                            <div class="btn v rm cv" data-num="25,28"></div>
+                                            <div class="btn c rb cv" data-num="25,26,27,28,29,30"></div>
+                                            <div class="btn h rh cm" data-num="28,29"></div>
+                                            <div class="btn m rm cm" data-num="28"></div>
+                                            <div class="btn h rb cm" data-num="28,29,30"></div>
+                                        </div>
+                                    </div>
+                                    <!-- col11 -->
+                                    <div class="col11">
+                                        <div class="row1">
+                                            <div class="btn v rm cv" data-num="30,33"></div>
+                                            <div class="btn m rm cm" data-num="33"></div>
+                                        </div>
+                                        <div class="row2">
+                                            <div class="btn c rh cv" data-num="29,30,32,33"></div>
+                                            <div class="btn v rm cv" data-num="29,32"></div>
+                                            <div class="btn h rh cm" data-num="32,33"></div>
+                                            <div class="btn m rm cm" data-num="32"></div>
+                                        </div>
+                                        <div class="row3">
+                                            <div class="btn c rh cv" data-num="28,29,31,32"></div>
+                                            <div class="btn v rm cv" data-num="28,31"></div>
+                                            <div class="btn c rb cv" data-num="28,29,30,31,32,33"></div>
+                                            <div class="btn h rh cm" data-num="31,32"></div>
+                                            <div class="btn m rm cm" data-num="31"></div>
+                                            <div class="btn h rb cm" data-num="31,32,33"></div>
+                                        </div>
+                                        <div class="row5">
+                                            <div class="btn ms2 rm cm" data-type="sector" data-sector="12"></div>
+                                        </div>
+                                    </div>
+                                    <!-- col12 -->
+                                    <div class="col12">
+                                        <div class="row1">
+                                            <div class="btn v rm cv" data-num="33,36"></div>
+                                            <div class="btn m rm cm" data-num="36"></div>
+                                        </div>
+                                        <div class="row2">
+                                            <div class="btn c rh cv" data-num="32,33,35,36"></div>
+                                            <div class="btn v rm cv" data-num="32,35"></div>
+                                            <div class="btn h rh cm" data-num="35,36"></div>
+                                            <div class="btn m rm cm" data-num="35"></div>
+                                        </div>
+                                        <div class="row3">
+                                            <div class="btn c rh cv" data-num="31,32,34,35"></div>
+                                            <div class="btn v rm cv" data-num="31,34"></div>
+                                            <div class="btn c rb cv" data-num="31,32,33,34,35,36"></div>
+                                            <div class="btn h rh cm" data-num="34,35"></div>
+                                            <div class="btn m rm cm" data-num="34"></div>
+                                            <div class="btn h rb cm" data-num="34,35,36"></div>
+                                        </div>
+                                    </div>
+                                    <!-- col13 -->
+                                    <div class="col13">
+                                        <div class="row1">
+                                            <div class="btn m rm cm" data-type="sector" data-sector="1"></div>
+                                        </div>
+                                        <div class="row2">
+                                            <div class="btn m rm cm" data-type="sector" data-sector="2"></div>
+                                        </div>
+                                        <div class="row3">
+                                            <div class="btn m rm cm" data-type="sector" data-sector="3"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            Your bets:
+                            <div style="width:400px">
+                                <button onclick="Place()">Place bet</button>
+                                <button onclick="Reset()">Reset</button>
+                                <div id='bets' style="float:left;width: 200px;height:150px;overflow-y:scroll;"></div>
+                                <div id='balance' style="float:left;width:200px;">Balance: 1.00 ETH</div><br>
+                                <div id='result' style="float:left;width:200px;"></div><br>
+                            </div>
+                            </div>
+                            <div class="text-center mt-4">
+                                <button class="btn-one" id="random"> Play </button>
+                            </div>
+                            <div class="coin-toss-inputs pt-4">
+                                <div class="coin-toss-inputs pt-4">
+                                    <p class="h4 text-center text-lg-end">Min <span id="min-amount"></span> Max <span id="max-amount"></span></p>
+                                    <div class="row mt-4 ">
+                                        <div class="col-md-4">
+                                            <p class="border mb-0 p-3">Fortuna Token </p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <input type="text" class="form-control rounded mw-100 p-3" aria-label="" id="amount">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <button class="btn-one w-100 p-3" type="button" id="max">Max</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-start pt-4">
+                                <p class="h5">Result <span class="float-end" id="result"></span></p>
+                                <p class="h5">Message <span class="float-end" id="message"></span></p>
+                            </div>
+                            <div class="text-start pt-4">
+                                <p class="h5">Your Odds <span class="float-end"> 5.94 x</span></p>
+                                <p class="h5">Winning Payout <span class="float-end" id="wamount"></span></p>
+                                <!--<button class="btn-one w-100 text-center mt-4" id="btn-connect">Connect Wallet</button>-->
+                                <button class="btn-one w-100 text-center mt-4" id="allowToken" style="display:none;">Approve</button>
+                                <!--<button class="btn-one w-100 text-center mt-4" id="btn-disconnect" style="display:none;">Disconnect Wallet</button>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 mt-4 mt-lg-0">
+                        <div class="my-card p-2 mb-4">
+                            <p class="h5">Total Fortuna Bets </p>
+                            <p class="h5" id="total-bet"></p>
+                        </div>
+                        <div class="my-card p-2 mb-4">
+                            <p class="h5">House Edge </p>
+                            <p class="h5"> 1% </p>
+                            <p>Good Luck!</p>
+                        </div>
+                        <div class="my-card p-2 mb-4">
+                            <p class="h5">Your Token Balance</p>
+                            <p class="h5" id="balance"></p>
+                        </div>
+                        <div class="my-card p-2 mb-4" style=" ">
+                            <p class="h5"> Swap </p>
+                            <div class="my-3">
+                                <div class="input-group mb-3 justify-content-end">
+                                    <input type="text" class="form-control" placeholder="0" aria-label="You cam write Number" aria-describedby="basic-addon2" id="sAmount">
+                                    <span class="p-2 pe-0 h5 float-end ms-3" id="basic-addon2">BNB</span>
+                                </div>
+                            </div>
+                            <div class="my-4">
+                                <p class="text-start">
+                                    <span>Ca. amount:</span>
+                                    <span id="estimedamount"></span>
+                                    <span class="float-end h5">Fortuna</span>
+                                </p>
+                            </div>
+                            <!--
+<div class="my-3">
+<span class="border py-1 px-5">
+text
+</span>
+<span class="ms-2"></span>
+</div>
+-->
+                            <button class="btn-one p-2 me-0 me-lg-1 mb-4 mb-lg-0" id="allowSwap"> Approve </button>
+                            <button class="btn-one p-2 ms-0 ms-lg-1" id="swap">BUY FRT</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="my-card">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active h4" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Leaderboard</button>
+                                </li>
+                            </ul>
+                            <hr>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                                    <h4 class="my-4">Last 100 Bets </h4>
+
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Player</th>
+                                                    <th scope="col">Txn</th>
+                                                    <th scope="col">Amount</th>
+                                                    <th scope="col">Choice</th>
+                                                    <th scope="col">Results</th>
+                                                    <th scope="col">Payout</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>0x451d</td>
+                                                    <td>0xh4578</td>
+                                                    <td>30 Fortuna</td>
+                                                    <td>Heads</td>
+                                                    <td>Heads</td>
+                                                    <td>60 Fortuna</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>0x451d</td>
+                                                    <td>0xh4578</td>
+                                                    <td>30 Fortuna</td>
+                                                    <td>Heads</td>
+                                                    <td>Heads</td>
+                                                    <td>60 Fortuna</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>0x451d</td>
+                                                    <td>0xh4578</td>
+                                                    <td>30 Fortuna</td>
+                                                    <td>Heads</td>
+                                                    <td>Heads</td>
+                                                    <td>60 Fortuna</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>0x451d</td>
+                                                    <td>0xh4578</td>
+                                                    <td>30 Fortuna</td>
+                                                    <td>Heads</td>
+                                                    <td>Heads</td>
+                                                    <td>60 Fortuna</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>0x451d</td>
+                                                    <td>0xh4578</td>
+                                                    <td>30 Fortuna</td>
+                                                    <td>Heads</td>
+                                                    <td>Heads</td>
+                                                    <td>60 Fortuna</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>0x451d</td>
+                                                    <td>0xh4578</td>
+                                                    <td>30 Fortuna</td>
+                                                    <td>Heads</td>
+                                                    <td>Heads</td>
+                                                    <td>60 Fortuna</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>0x451d</td>
+                                                    <td>0xh4578</td>
+                                                    <td>30 Fortuna</td>
+                                                    <td>Heads</td>
+                                                    <td>Heads</td>
+                                                    <td>60 Fortuna</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>0x451d</td>
+                                                    <td>0xh4578</td>
+                                                    <td>30 Fortuna</td>
+                                                    <td>Heads</td>
+                                                    <td>Heads</td>
+                                                    <td>60 Fortuna</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>0x451d</td>
+                                                    <td>0xh4578</td>
+                                                    <td>30 Fortuna</td>
+                                                    <td>Heads</td>
+                                                    <td>Heads</td>
+                                                    <td>60 Fortuna</td>
+                                                </tr>
+
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--slider area end -->
+    <div class="mamuer-beta" style="display: none;">
+        <div class="outcome">
+            <img src="images/coin-toss.gif" alt="">
+        </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="bootsrtap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!--  Custom js   -->
+    <script src="js/script.js"></script>
+    <script src="js/roulette.js"></script>
+
+    <script type="text/javascript" src="./js/web3.min.js"></script>
+    <script type="text/javascript" src="./js/web3modal.js"></script>
+    <script type="text/javascript" src="./js/index.min.js"></script>
+    <script type="text/javascript" src="./js/w3pindex.min.js"></script>
+
+
+    <!-- This is our example code -->
+    <script type="text/javascript" src="./js/gameDice.js"></script>
+
+</body></html>

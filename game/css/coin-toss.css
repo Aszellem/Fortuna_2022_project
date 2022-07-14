@@ -1,0 +1,94 @@
+.coin{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    margin-top: 150px;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+.coin img{
+    width: 145px;
+}
+.heads,.tails{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+}
+.tails{
+    transform: rotateX(180deg);
+}
+@keyframes spin-tails{
+    0%{
+        transform: rotateX(0);
+        bottom: 0px;
+    }
+    50%{
+        bottom: 120px;
+    }
+    100%{
+        transform: rotateX(1980deg);
+        bottom: 0px;
+    }
+}
+@keyframes spin-heads{
+    0%{
+        transform: rotateX(0);
+        bottom: 0px;
+    }
+    50%{
+        bottom: 120px;
+    }
+    100%{
+        transform: rotateX(2160deg);
+        bottom: 0px;
+    }
+}
+
+@keyframes spin-start{
+    0%{
+        transform: rotateX(0);
+        bottom: 0px;
+    }
+
+    100%{
+        transform: rotateX(4320deg);
+        bottom: 0px;
+    }
+}
+@keyframes spin-top{
+    0%{
+        transform: rotateX(0);
+        bottom: 120px;
+    }
+
+    100%{
+        transform: rotateX(4320deg);
+        bottom: 0px;
+    }
+}
+@keyframes spin-stop-head{
+    0%{
+        transform: rotateX(0);
+        bottom: 0px;
+    }
+
+    100%{
+        transform: rotateX(1980deg);
+        bottom: 0px;
+    }
+}
+
+@keyframes spin-stop-tail{
+    0%{
+        transform: rotateX(0);
+        bottom: 0px;
+    }
+
+    100%{
+        transform: rotateX(2160deg);
+        bottom: 0px;
+    }
+}
