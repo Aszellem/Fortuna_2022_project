@@ -551,6 +551,8 @@ css start */
 
 
 .dice-roll-area .form-check-inline {
+
+    margin-left: 5px;
     margin-right: 4px;
     opacity: 1;
 }
@@ -577,9 +579,7 @@ css start */
     background: #fff;
     box-shadow: none;
 }
-.dot{
-    
-}
+
 
 .dice-roll-area input {
     opacity: 0;
