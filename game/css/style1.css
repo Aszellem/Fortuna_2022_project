@@ -995,7 +995,7 @@ span#wa {
 }
 
 .radio-form input:checked+label {
-  background-image: linear-gradient(160deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07);
+  background-color: white;
   color: rgb(120, 50, 5);;
 }
 
