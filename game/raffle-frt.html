@@ -13,7 +13,7 @@
     <!-- fontawesome css   -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- custom css   -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
     <!--Win Effect-->
     <link rel="stylesheet" href="css/win-effect.css">
     <!--    CSS for responsive-->
@@ -77,7 +77,7 @@
                         <!--  <a class="nav-link " href="roulette.html">Roulette</a>-->
                     </li>
                     <li class="nav-item ms-3">
-                        <span class="h4 mx-4" id="wa" style="display:none;">Wallet Address </span>
+                        <span class="h4 mx-4" id="wa" style="display:none;">Wallet Address</span> <!--itt elkellene törni a szöveget pl: <br>-->
                         <button class="btn-three" id="btn-connect"> Connect</button>
                     </li>
                     <li class="nav-item ms-3">
@@ -101,10 +101,8 @@
                                <p class="h2 text-start">Raffle - FRT
                                  <span class="float-end">
 
-                                   <!--<span class="h4 ms-4" id="wa" style="display:none;">Wallet Address </span>->
-
-
-                                   <!--<button class="btn-one" id="btn-connect"> Connect</button>
+                                   <!--<span class="h4 ms-4" id="wa" style="display:none;">Wallet Address </span>
+                                    <button class="btn-one" id="btn-connect"> Connect</button>
                                    <button class="btn-one" id="btn-disconnect" style="display:none;"> Disonnect</button>-->
                                  </span>
                                </p>
@@ -164,14 +162,15 @@
                                </div>
                            </div>
                        </div>
+
                        <div class="col-lg-12 col-md-12 my-5 mx-auto swap">
                            <div class="my-card mb-4">
                                <div class="row"> <p class="h5"> Swap </p></div><br>
-                               <div class="row border rounded" style="padding-top: 15px; padding-bottom: 13px;">
+                               <div class="row border rounded" style="padding-top: 30px; padding-bottom: 15px; padding-right: 15px;">
                                    <div class="col-sm-6 col-md-3 col-lg-3 col-xl-6 col-xxl-2">
                                     <div>
                                        <input class="form-control rounded p-3 d-inline-block" style="width: 80px;" type="text" placeholder="0" aria-label="You can write Number" aria-describedby="basic-addon2" id="sAmount">
- <span class="p-2 me-3" id="basic-addon2">BNB</span>
+                                        <span class="p-2 me-3" id="basic-addon2">BNB</span>
                                     </div>
                                    </div>
                                    <div class="col-sm-6 col-md-3 col-lg-3 col-xl-6 col-xxl-2 p-2">Ca. amount:</div>
@@ -184,11 +183,12 @@
                                </div>
                            </div>
                        </div>
+
                           <div class="col-lg-12 mt-5">
                               <div class="my-card">
                                   <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                                       <li class="nav-item" role="presentation">
-                                          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Leaderboard</button>
+                                          <button class="btn-board active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Leaderboard</button>
                                       </li>
                                   </ul>
                                   <hr>
