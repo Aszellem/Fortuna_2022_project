@@ -13,7 +13,7 @@
     <!-- fontawesome css   -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- custom css   -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
     <!--Win Effect-->
     <link rel="stylesheet" href="css/win-effect.css">
     <!--    CSS for responsive-->
@@ -147,7 +147,7 @@ Your balance: <p class="mb-0 text-start h5 fw-bold" id="balance"></p>
                                                     <p id="result"></p>
 
                                             <div class="col-sm">
-                                              <button class="btn-one w-100" id="buy"> Buy</button>
+                                              <button class="btn-one w-25" id="buy"> Buy</button>
                                             </div>
 
 
@@ -162,6 +162,8 @@ Your balance: <p class="mb-0 text-start h5 fw-bold" id="balance"></p>
                                         </div>
                                     </div>
                                 </div>
+
+                                <!--swap part-->
                                 <div class="col-lg-12 col-md-12 my-5 mx-auto swap">
                                     <div class="my-card mb-4">
                                         <div class="row">
@@ -171,26 +173,25 @@ Your balance: <p class="mb-0 text-start h5 fw-bold" id="balance"></p>
                                                     <input class="form-control rounded p-3 d-inline-block" type="text" placeholder="0" aria-label="You cam write Number" aria-describedby="basic-addon2" id="sAmount">
                                                     <span class="p-2 me-3" id="basic-addon2">BNB</span>
                                                 </div>
-
-
-                                                <span>Ca. amount:</span>
+                                                <div class="col-sm-6 col-md-3 col-lg-3 col-xl-6 col-xxl-2 p-2">Ca. amount:</div>
                                                 <span id="estimedamount"></span>
 
                                                 <span>Fortuna</span>
 
-                                                <button class="btn-one mx-0 mx-lg-3 my-3 my-lg-0" id="allowSwap"> Approve </button>
-                                                <button class="btn-one ms-0 ms-lg-2 my-3 my-lg-0" id="swap">BUY FRT</button>
+                                   <div class="col-sm-3 col-md-3 col-lg-3 col-xl-6 col-xxl-2 text-end"><button class="btn-one mx-0 mx-lg-3 my-3 my-lg-0 mw-50" style="min-width: 130px;" id="allowSwap">Approve</button></div>
+                                   <div class="col-sm-3 col-md-3 col-lg-3 col-xl-6 col-xxl-2 text-start"><button class="btn-one ms-0 ms-lg-2 my-3 my-lg-0 mw-50" style="min-width: 130px;" id="swap">BUY FRT</button></div>
 
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
-                                <div class="col-lg-12 mt-5">
+                                <!--swap part end-->
+
+                                <div class="col-lg-12 mt-5" style="padding-bottom: 30px;">
                                     <div class="my-card">
                                         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                                             <li class="nav-item" role="presentation">
-                                                <button class="nav-link active h4" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Leaderboard</button>
+                                                <button class="btn-board active h4" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Leaderboard</button>
                                             </li>
                                         </ul>
                                         <hr>
