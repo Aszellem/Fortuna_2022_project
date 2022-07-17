@@ -18,7 +18,7 @@ $ref = (substr($ref, 0, 2) == '0x') ? $ref : '';
     <!-- fontawesome css   -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- custom css   -->
-    <link rel="stylesheet" href="css1/style.css">
+    <link rel="stylesheet" href="css1/mainStyle.css">
     <!--    CSS for responsive-->
     <link rel="stylesheet" href="css/responsive.css">
     <title>FORTUNA – Crypto Casino with the best odds – Free spins, Dice, Lottery, Coin Toss and more</title>
@@ -77,9 +77,9 @@ $ref = (substr($ref, 0, 2) == '0x') ? $ref : '';
                             <div class="py-4 px-5 text-justify-center">
                                 <p class="h4">What brings you here, brave traveler? Are you ready to win it all? Fortuna’s smile may will shine upon you since you have already made it here, to the gate of luck of cryptocurrency games. It may seem like gamble but be aware of the unique elements of these casino-style games From now on, Fortuna’s shield will protect you from bad luck if you try out one (or more) of her crypto games. <br />
                                     <br />
-                                    Fortuna will be here with you along your crypto gambling experience as you gather up bonuses and find yourself at the top of the greatest online casino players.<br />
+                                    <!-- Fortuna will be here with you along your crypto gambling experience as you gather up bonuses and find yourself at the top of the greatest online casino players.<br />
                                     <br />
-                                    Fortuna offers you a variety of crypto activities like Dice, Coin Toss, Lottery or an exclusive feature called Safe Cracker. Try out yourself in these cryptocurrency games, connect your wallet and discover the world of this exciting crpyto casino like adventure! If you want to feel more safe before joining this experience, check out Fortuna’s documents and find out that we are provably fair and secure as Fortuna is insured by NN, a dutch insurance company!
+                                    Fortuna offers you a variety of crypto activities like Dice, Coin Toss, Lottery or an exclusive feature called Safe Cracker. Try out yourself in these cryptocurrency games, connect your wallet and discover the world of this exciting crpyto casino like adventure! If you want to feel more safe before joining this experience, check out Fortuna’s documents and find out that we are provably fair and secure as Fortuna is insured by NN, a dutch insurance company! -->
                                 </p>
                             </div>
                         </div>
