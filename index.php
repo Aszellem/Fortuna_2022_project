@@ -45,8 +45,8 @@ $ref = (substr($ref, 0, 2) == '0x') ? $ref : '';
                     <li class="nav-item">
                         <a class="nav-link scroll" href="#game">Launch Games</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link scroll" href="#presale">Presale</a>
+                    <li class="nav-item" >
+                        <a class="nav-link scroll" style="color:#C89C37; text-shadow: 2px 2px #383838;" href="#presale">Presale</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link scroll" href="#tokenomics">Tokenomics</a>
