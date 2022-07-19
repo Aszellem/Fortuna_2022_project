@@ -18,7 +18,7 @@ $ref = (substr($ref, 0, 2) == '0x') ? $ref : '';
     <!-- fontawesome css   -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- custom css   -->
-    <link rel="stylesheet" href="css1/mainStyle.css">
+    <link rel="stylesheet" href="css1/style.css">
     <!--    CSS for responsive-->
     <link rel="stylesheet" href="css/responsive.css">
     <title>FORTUNA – Crypto Casino with the best odds – Free spins, Dice, Lottery, Coin Toss and more</title>
