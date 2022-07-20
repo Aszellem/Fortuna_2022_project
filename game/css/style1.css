@@ -316,7 +316,7 @@ body {
 }
 
 .coin-toss-inputs p.border {
-  border: solid 2px #a55d07 !important;
+  border: solid 2px #ffffff !important;
   border-radius: 6px;
   padding: 0.3rem !important;
 }
@@ -459,12 +459,12 @@ css start */
 }
 
 .my-card .table-responsive {
-  border: solid 1px #a55d07;
+  border: solid 1px #fff;
   border-radius: 8px !important;
 }
 
 .my-card .table-responsive tr {
-  border-color: #a55d07;
+  border-color: #fff;
 }
 
 .my-card .table-responsive tr:last-child {
@@ -472,20 +472,20 @@ css start */
 }
 
 .my-card .table-responsive tr:hover {
-  background-color: #a55d07;
-  color: #fff;
+  background-color: transparent;
+  color: #b38728;
 }
 
 .my-card .form-select {
   background-color: transparent;
-  border: solid 2px #a55d07;
-  color: #fff;
+  border: solid 2px #fff;
+  color: #b38728;
 }
 
 .my-card .form-control {
   background-color: transparent;
-  border: solid 2px #a55d07;
-  color: #fff;
+  border: solid 2px #ffffff;
+  color: #b38728;
   max-width: 165px;
   text-align: right;
   padding: 0.3rem !important;
@@ -582,13 +582,13 @@ css start */
 }
 
 .dice-roll-area .form-check .form-check-label {
-  border: solid 2px #a55d07;
+  border: solid 2px #b38728;
   cursor: pointer;
 }
 
 .dice-roll-area .form-check input:checked + label {
   opacity: 1;
-  border: solid 2px #a55d07;
+  border: solid 2px #fff;
   background-color: rgba(214, 24, 27, 0.9);
 }
 
@@ -683,7 +683,7 @@ div.clock {
 }
 
 .border-color {
-  border-color: #a55d07 !important;
+  border-color: #ffffff !important;
 }
 
 /*
