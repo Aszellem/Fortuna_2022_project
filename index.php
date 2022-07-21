@@ -98,7 +98,7 @@ $ref = (substr($ref, 0, 2) == '0x') ? $ref : '';
 
     </section>
     <!--slider area end -->
-    <br /><br /><br /><br /><br /><br />
+    <!-- <br /><br /><br /><br /><br /><br /> -->
     <!--Feature section start -->
     <div class="container py-5">
         <div class="row">&nbsp;</div>
