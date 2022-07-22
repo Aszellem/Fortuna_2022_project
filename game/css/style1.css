@@ -117,12 +117,12 @@ body {
 .btn-board {
   width: 150px;
   height: 50px;
-  border-radius: 8px;
+  border-radius: 6px;
   padding: 0.3rem !important;
   font-weight: 600;
   font-size: 16px;
   text-decoration: none !important;
-  background-color: #383838;
+  background-color: transparent;
   border: 2px solid white;
   color: white;
   cursor: pointer;
@@ -134,12 +134,12 @@ body {
 
 .btn-swap {
   width: 90px;
-  border-radius: 8px;
+  border-radius: 6px;
   padding: 0.3rem !important;
   font-size: 14px;
   font-weight: 500;
   text-decoration: none !important;
-  background-color: #383838;
+  background-color: transparent;
   border: 2px solid white;
   color: white;
   cursor: pointer;
@@ -154,12 +154,12 @@ body {
 					#dc8 100%);*/
 
 .btn-one {
-  border-radius: 8px;
+  border-radius: 6px;
   padding: 0.3rem !important;
   font-weight: 600;
   font-size: 16px;
   text-decoration: none !important;
-  background-color: #383838;
+  background-color: transparent;
   border: 2px solid white;
   color: white;
   cursor: pointer;
@@ -184,7 +184,7 @@ body {
 
 .btn-one-flat {
   display: flex;
-  border-radius: 12px;
+  border-radius: 6px;
   font-weight: 600;
   font-size: 14px;
   text-decoration: none !important;
@@ -207,7 +207,7 @@ body {
   background-color: #000;
   text-decoration: none;
   padding: 10px 30px;
-  border-radius: 8px;
+  border-radius: 6px;
   color: #fff;
   display: inline-block;
   transition: all 0.3s;
@@ -233,12 +233,12 @@ body {
 
 .btn-three {
   height: 50px;
-  border-radius: 8px;
+  border-radius: 6px;
   padding: 10px 30px;
   font-weight: 600;
   font-size: 18px;
   text-decoration: none;
-  background-color: #c89c37;
+  background-color: transparent;
   border: 2px solid white;
   color: white;
   cursor: pointer;
@@ -246,6 +246,7 @@ body {
   background-size: 100% 100%;
   background-position: center;
   display: inline-block;
+  box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.968);
 }
 
 .btn-three:active {
@@ -257,7 +258,7 @@ body {
     background: rgba(0, 0, 0, 0.7);
     box-shadow: 0px 2px 10px #000;
     padding: 40px;
-    border-radius: 8px;
+    border-radius: 6px;
     color: #fff;
     text-align: center;
     transition: all 0.3s;
@@ -268,7 +269,7 @@ body {
   background: rgba(50, 50, 50, 0.6);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6), 10px 10px 25px rgba(0, 0, 0, 0.6);
   padding: 40px;
-  border-radius: 8px;
+  border-radius: 6px;
   color: #fff;
   text-align: center;
   transition: all 0.3s;
@@ -298,7 +299,7 @@ body {
 /* coin area css*/
 
 .coin-area .input-group {
-  border-radius: 8px;
+  border-radius: 6px;
 }
 
 .coin-area input.form-control {
@@ -429,7 +430,7 @@ css start */
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   font-size: 18px;
-  border-radius: 8px;
+  border-radius: 6px;
   font-weight: 600;
   padding: 10px 30px;
   text-decoration: none;
@@ -728,7 +729,7 @@ div.clock {
     rgba(188, 136, 27, 0.3),
     rgba(165, 78, 7, 0.3)
   );
-  border-radius: 8px;
+  border-radius: 6px;
 }
 
 .lottery-area .token-border {
@@ -859,7 +860,7 @@ input[type="number"] {
 span#wa {
   text-overflow: ellipsis;
   white-space: nowrap;
-  width: 100px;
+  /* width: 100px; */
   overflow: hidden;
 }
 
@@ -872,7 +873,7 @@ span#wa {
 
 .safe-cracker-value {
   border: 1px solid rgba(165, 93, 7, 0.5);
-  border-radius: 8px;
+  border-radius: 6px;
   padding: 10px;
   background-color: rgba(250, 250, 250, 0.3);
   color: #fff;
@@ -1100,7 +1101,7 @@ span#wa {
   padding-right: 15px;
   padding-left: 15px;
   border: solid 2px #a55d07;
-  border-radius: 8px;
+  border-radius: 6px;
   font-weight: 600;
   font-size: 22px;
   max-width: 100px;
@@ -1108,6 +1109,6 @@ span#wa {
 
 .border-standard {
   border: solid 1px rgba(250, 250, 250, 0.3);
-  border-radius: 8px;
+  border-radius: 6px;
   background-color: rgba(229, 185, 86, 0.3);
 }
