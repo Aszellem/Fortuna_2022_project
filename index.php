@@ -45,9 +45,9 @@ $ref = (substr($ref, 0, 2) == '0x') ? $ref : '';
                     <li class="nav-item">
                         <a class="nav-link scroll" href="#game">Launch Games</a>
                     </li>
-                    <li class="nav-item" >
+                    <!-- <li class="nav-item" >
                         <a class="nav-link scroll" style="color:#C89C37; text-shadow: 2px 2px #383838;" href="#presale">Presale</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link scroll" href="#tokenomics">Tokenomics</a>
                     </li>
@@ -261,7 +261,7 @@ $ref = (substr($ref, 0, 2) == '0x') ? $ref : '';
 
     </div>
     <!--      section start -->
-    <div class="container py-5">
+    <!-- <div class="container py-5">
         <div class="col-lg-8 mx-auto presale-area dark-bg">
             <div class="row" id="presale">
                 <div class="col-md-8 mx-auto text-center mb-5">
@@ -363,11 +363,11 @@ $ref = (substr($ref, 0, 2) == '0x') ? $ref : '';
                                 <div class="col-6">
                                     <div class="card">
                                         <span id="myref"></span>
-                                        <!--<span class="h4 p-2 mb-0" id="myref" readonly="readonly"></span>-->
+                                        <span class="h4 p-2 mb-0" id="myref" readonly="readonly"></span>
                                         <input type="hidden" id="ref-id" value="<?php echo $ref; ?>">
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <!--<div class="row pt-2">
                            <div class="col-6">
                                <p class="h4 mb-0 p-2">Used Referral ID : </p>
@@ -379,7 +379,7 @@ $ref = (substr($ref, 0, 2) == '0x') ? $ref : '';
                            </div>
                        </div>
                      -->
-                        </div>
+                        <!-- </div>
                     </div>
                     <div class="row my-5 pt-5">
                         <div class="col-lg-12 mx-auto">
@@ -397,7 +397,7 @@ $ref = (substr($ref, 0, 2) == '0x') ? $ref : '';
         </div>
     </div>
 
-    
+     -->
     <!--      section end -->
     <div class="container">
 
