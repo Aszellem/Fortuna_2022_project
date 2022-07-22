@@ -110,7 +110,7 @@ navbár színváltás
 
 .my-card {
     
-    background: linear-gradient(90deg, #b38728, rgb(229, 185, 86,0.2));
+    background: #b38728;
     padding: 20px;
     border-radius: 5px;
     text-align: center;
@@ -120,7 +120,7 @@ navbár színváltás
 .my-card:hover {
     color: #000;
     transition: all 0.1s;
-    background: linear-gradient(90deg, #fff,rgba(7, 7, 7, 0.2));
+    background: linear-gradient(90deg, #fff,rgba(7, 7, 7, 0.8));
 }
 
 .my-card p {
@@ -197,12 +197,12 @@ navbár színváltás
 .btn-play{
     border-radius: 5px;
     padding: 10px 30px;
-    font-weight: 600;
+    font-weight:initial;
     font-size: 18px;
     text-decoration: none;
     background-color: transparent;
-    border: 2px groove white;
-    color: #ffffff;
+    border: 2px solid rgb(229, 185, 86);
+    color: #fff;
     cursor: pointer;
     transition: all .2s ease-in-out;
     background-size: 100% 100%;
@@ -212,7 +212,7 @@ navbár színváltás
 .btn-play:focus,
 .btn-play:hover {
     background-size: 150% 150%;
-
+    border: 2px solid rgb(0, 0, 0);
     color: black;
     background:transparent;
 }
