@@ -100,7 +100,7 @@ navbár színváltás
 
 
 .main-color {
-    color: #e5b956;
+    color: #b38728;
     transition: all 0.3s;
 }
 
@@ -179,7 +179,7 @@ navbár színváltás
     font-size: 18px;
     text-decoration: none;
     background-color: transparent;
-    border: 2px solid #bc881b;
+    border: 2px solid #b38728;
     color: #ffffff;
     cursor: pointer;
     transition: all .2s ease-in-out;
@@ -191,7 +191,7 @@ navbár színváltás
 .btn-presale:hover {
     background-size: 150% 150%;
     border: 2px solid white;
-    color: #bc881b;
+    color: #b38728;
 }
 
 .btn-play{
@@ -201,7 +201,7 @@ navbár színváltás
     font-size: 18px;
     text-decoration: none;
     background-color: transparent;
-    border: 2px solid rgb(229, 185, 86);
+    border: 2px solid #cfa54b;
     color: #fff;
     cursor: pointer;
     transition: all .2s ease-in-out;
@@ -224,21 +224,20 @@ navbár színváltás
     font-size: 18px;
     text-decoration: none;
     background-color: transparent;
-    border: 2px solid #bc881b;
+    border: 2px solid #b38728;
     color: #ffffff;
     cursor: pointer;
     transition: all .2s ease-in-out;
     background-size: 100% 100%;
     background-position: center;
     display: inline-block;
-    box-shadow:  5px #e5b956;
 }
 
 .btn-one:focus,
 .btn-one:hover {
     background-size: 150% 150%;
     border: 2px solid white;
-    color: #bc881b;
+    color: #b38728;
     
 }
 
@@ -289,7 +288,7 @@ navbár színváltás
     background-position: center;
     display: inline-block;
 } */
-
+/* 
 .btn-three:focus,
 .btn-three:hover {
     background-size: 150% 150%;
@@ -304,7 +303,7 @@ navbár színváltás
     box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(110, 80, 20, .4),
         inset 0 -2px 5px 1px #b17d10,
         inset 0 -1px 1px 3px rgba(250, 227, 133, 1);
-}
+} */
 
 .slider-area {
 
@@ -339,7 +338,7 @@ body {
 .tokenomics-area .border {
     width: 410px;
     height: 300px;
-    border-color: #dda528 !important;
+    border-color: #b38728 !important;
     border-radius: 5px;
     
 }
@@ -355,7 +354,7 @@ body {
 
 .presale-area {
     border-radius: 5px;
-    border: solid 1px #dda528;
+    border: solid 1px #b38728;
 }
 .presale-area .card {
     background-color: rgba(255, 255, 255, 0.65);
@@ -374,7 +373,7 @@ body {
 
 
 .hr-one {
-    background-color: #dda528;
+    background-color: #b38728;
     opacity: 0.8;
 }
 
@@ -383,7 +382,7 @@ body {
 }
 
 .title-border {
-    border-bottom: solid 2px #dda528;
+    border-bottom: solid 2px #b38728;
     max-width: 50%;
 }
 
@@ -400,15 +399,15 @@ section.footer {
 
 .golden-border {
     border: 2px solid transparent;
-    border-bottom: 2px solid #e5b956;
+    border-bottom: 2px solid #b38728;
 }
 
 a.main-color.golden-border:hover {
-    color: #e5b956;
+    color: #b38728;
     transition: all 0.3s;
     border-radius: 8px;
-    border: solid 2px #e5b956;
-    border-bottom: solid 2px #e5b956 !important;
+    border: solid 2px #b38728;
+    border-bottom: solid 2px #b38728 !important;
 }
 
 
@@ -433,7 +432,7 @@ a.main-color.golden-border:hover {
     cursor: pointer;
     right: 3%;
     top: 85%;
-    background-color: #e5b956;
+    background-color: #b38728;
     box-shadow: 0px 0px 10px rgb(0 0 0 / 31%);
     z-index: 4;
     width: 50px;
@@ -456,7 +455,7 @@ a.main-color.golden-border:hover {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-color: #e5b956;
+    background-color: #b38728;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: .5s;
